@@ -1,3 +1,5 @@
 *.synctex.gz*
 indent.log
 docs/report.bbl
+docs/main-blx.bib
+docs/main.bbl
