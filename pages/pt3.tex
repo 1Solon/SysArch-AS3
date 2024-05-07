@@ -1,0 +1,59 @@
+\section{System Performance}
+
+The proposed architecture leverages smartphones as edge compute nodes, which
+significantly enhance system performance through these key aspects:
+
+\begin{itemize}
+    \item \textbf{Reduced Latency:} By processing information locally on
+          smartphones, the system minimizes the need to send large volumes of
+          sensitive information to the central server. This local preprocessing
+          speed up response time as only relevant information is forwarded for
+          further processing.
+    \item \textbf{Load Distribution:} Incorporating a load balancer ensures
+          efficient distribution of information across multiple servers
+          instances, preventing any one server from becoming a bottleneck and
+          enhancing overall response time and information handling capabilities.
+    \item \textbf{Optimized Data Handling:} Separating the process and storage
+          functionalities allow each to be optimized for their particular tasks,
+          allowing for fast processing for real-time analytics and efficient
+          storage for information persistence—improving both speed and
+          efficiency.
+\end{itemize}
+
+\section{System Reliability}
+
+Several mechanisms are employed within the architecture to guarantee high
+reliability:
+
+\begin{itemize}
+    \item \textbf{Fault Tolerance:} The use of a load balancer improves system
+          reliability by rerouting traffic away from servers that are failing or
+          are overburdened, maintaining continuous service and allowing for
+          maintenance without downtime.
+    \item \textbf{Data Redundancy:} Configuring the database system for
+          redundancy protects against data loss in the case of hardware failure
+          and allows for recovery without data corruption.
+    \item \textbf{Robust Security Measures:} Implementing security features such
+          as end-to-end encryption, strong authentication, and rigorous access
+          control prevents unauthorized access and data breaches, enhancing
+          system reliability.
+\end{itemize}
+
+\section{Scalability of Data Storage Requirements}
+The scalability of the architecture is addressed through various features:
+
+\begin{itemize}
+    \item \textbf{Modular Design:} The architecture's modular design allows for
+          the addition of more smartphones as edge client and server instances
+          as needed. This horizontal scalability supports an increased amount of
+          users and high information processing demands.
+    \item \textbf{Cloud Integration Possibility:} Although the current setup is
+          non-cloud, the architecture is designed for easy integration with
+          cloud services if needed, providing almost unlimited scalability by
+          leveraging cloud resources for additional processing and storage
+          capacity.
+    \item \textbf{Efficient Data Management:} Integrating a Document Management
+          A system with a database ensures effective organization and management
+          of data, supporting scalability with features like indexing and fast
+          recovery capabilities as data volume grows.
+\end{itemize}
